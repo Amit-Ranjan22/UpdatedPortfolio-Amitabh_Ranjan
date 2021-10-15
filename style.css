@@ -1,0 +1,338 @@
+/* taking universal selector * for every element and giving it a box-sizing of 'border-box',padding 0 and magin 0 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* giving whole body of html page a background color */
+body {
+  background-color: #d9dcd6;
+}
+
+/* giving some values to navbar padding,font-family & a background   
+   color */
+.navbar {
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ac9fbb;
+}
+
+/* giving .name div some padding,background color,some margin,font size,
+   text color and display position of inline-block */
+.name {
+  padding: 5px;
+  background-color: #ddbdd5;
+  margin-left: 20px;
+  font-size: 48px;
+  color: #582f0e;
+  display: inline-block;
+}
+
+/* giving div with navbarDiv-links property like float 'right', padding,
+   margin,font-family and font-size . */
+.navbarDiv-links {
+  float: right;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+}
+
+/* giving li of .navbarDiv-links a display poerty of 'inline-block' and 
+   left margin */
+.navbarDiv-links ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* giving anchor tags of .navbarDiv-links a text color */
+.navbarDiv-links a {
+  color: #ffffff;
+}
+
+/* adding a background image to div .background-image */
+.background-image {
+  padding: 80px;
+  background-image: url(image/background-image1.jfif);
+}
+
+/* giving some properties values like float:right,padding,background-color etc to div .subtitle */
+.subtitle {
+  float: right;
+  padding: 5px;
+  background-color: #ddfcad;
+  margin-right: 20px;
+  font-size: 28px;
+  font-family: cursive;
+  color: #582f0e;
+}
+
+/* giving div with .conten a display property, width & margin */
+.content {
+  width: 100%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* setting some property values to div .About-Me-Content like padding,margin,height etc */
+.About-Me-Content {
+  margin-bottom: 5px;
+  padding: 50px;
+  height: 320px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #dce1de;
+}
+
+/* adding some properties values to div .AboutMe-SubHeading like 
+   float:left, margin, text color, height width */
+.AboutMe-SubHeading {
+  float: left;
+  margin-bottom: 32px;
+  margin-right: 15px;
+  color: #582f0e;
+  border-right: solid black;
+  height: 225px;
+  width: 15%;
+}
+
+/* giving font-size and right margin to h2 of div .AboutMe-SubHeading */
+.AboutMe-SubHeading h2 {
+  font-size: 40px;
+  margin-right: 4px;
+}
+
+/* giving float value,max-height,margin left and margin right to 
+   image of .About-Me-Content */
+.About-Me-Content img {
+  max-height: 200px;
+  margin-left: 0px;
+  float: left;
+  margin-right: 25px;
+}
+
+/* giving div with class .Work-Content some height,padding,margin
+   font-family and background color */
+.Work-Content {
+  margin-bottom: 5px;
+  padding: 50px;
+  height: 1000px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #b7b7a4;
+  width: 100%;
+}
+
+/* giving div with class Work-SubHeading some width, border,position,
+   margin and height. */
+.Work-SubHeading {
+  float: left;
+  margin-bottom: 32px;
+  margin-right: 15px;
+  margin-left: 0px;
+  height: 900px;
+  padding: 50px;
+  border-right: solid black;
+  width: 15%;
+}
+
+/* giving h2 of .Work-SubHeading a font-size and text color */
+.Work-SubHeading h2 {
+  font-size: 40px;
+  color: #582f0e;
+}
+
+/* giving .work1-heading a background-color and display attribute of 
+   inline block */
+.work1-heading {
+  background-color: #8f857d;
+  display: inline-block;
+}
+
+/* giving height and width to image under Work1 */
+.Work1 img {
+  max-height: 500px;
+  width: 80%;
+}
+
+/* giving padding,width,margin float-right position to the div .
+   Work-2_3 */
+.Work-2_3 {
+  padding: 5px;
+  width: 80%;
+  margin-right: 2px;
+  float: right;
+}
+
+/* giving display property of inline block  and some padding and width 
+   to div Work2 */
+.Work2 {
+  padding: 10px;
+  width: 40%;
+  /* margin-right: 50px; */
+  display: inline-block;
+}
+
+.work2-heading {
+  background-color: #8f857d;
+  display: inline-block;
+}
+
+/* giving height & width to div .Work2 img{} */
+.Work2 img {
+  max-height: 100px;
+  width: 100%;
+}
+
+/* giving some padding,width,margin & float right position to div 
+   .Work3 */
+.Work3 {
+  padding: 10px;
+  width: 40%;
+  margin-right: 50px;
+  float: right;
+}
+
+/* giving a background color and display property of inline block to 
+  .work3-heading  */
+.work3-heading {
+  background-color: #8f857d;
+  display: inline-block;
+}
+
+/* giving some height and widdth to image in div .Work3 */
+.Work3 img {
+  max-height: 100px;
+  width: 100%;
+}
+
+/* giving some padding,width margin and float value of right to 
+   .Work-4_5*/
+.Work-4_5 {
+  padding: 5px;
+  width: 80%;
+  margin-right: 2px;
+  float: right;
+}
+
+/* giving display property of inline block and some padding & width 
+   to Work4 */
+.Work4 {
+  padding: 10px;
+  width: 40%;
+  display: inline-block;
+}
+
+/* giving background color adn display property of inline-block to 
+   work4-heading */
+.work4-heading {
+  background-color: #8f857d;
+  display: inline-block;
+}
+
+/* giving height and width to image in .Work4 */
+.Work4 img {
+  max-height: 100px;
+  width: 100%;
+}
+
+/* giving float value,padding,width & margin to .Work5 */
+.Work5 {
+  padding: 10px;
+  width: 40%;
+  margin-right: 50px;
+  float: right;
+}
+
+/* giving background color & display property of inline-block to 
+   .work5-heading */
+.work5-heading {
+  background-color: #8f857d;
+  display: inline-block;
+}
+
+/* giving height & width to image inside Work5  */
+.Work5 img {
+  max-height: 100px;
+  width: 100%;
+}
+
+/* giving background-color,padding & height to .ContactMe-Content  */
+.ContactMe-Content {
+  background-color: #d8dbe2;
+  padding: 50px;
+  height: 180px;
+}
+
+/* giving border,padding,width margin etc to .ContactMe-SubHeading */
+.ContactMe-SubHeading {
+  padding: 2px;
+  border-right: solid black;
+  width: 15%;
+  height: 120px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 7px;
+}
+
+/* giving font size & text color to h2 inside .ContactMe-SubHeading */
+.ContactMe-SubHeading h2 {
+  font-size: 40px;
+  color: #582f0e;
+}
+
+/* giving padding & margin to .ContactMe-Details */
+.ContactMe-Details {
+  padding-top: 20px;
+  margin-right: 120px;
+}
+
+/* giving padding & margin to .ContactMe-Ul  */
+.ContactMe-Ul {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+/* giving background color & display property of inline block to 
+   .contact-info */
+.contact-info {
+  background-color: #aec3b0;
+  display: inline-block;
+}
+
+/* giving display property of inline,margin,font-family,font-size and 
+   text color to all the li inside  .ContactMe-Ul */
+.ContactMe-Ul ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #5e3023;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+}
+
+/* giving text color,font-family, font-size to span and all the a tags  
+   inside .ContactMe-Ul  */
+.ContactMe-Ul span,a {
+  color: #27187e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* giving background color to .footer */
+.footer {
+  background-color: #bfc0c0;
+}
+
+/* giving padding value of 10px and text-align:center to h2 element 
+   inside .footer */
+.footer h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+/* giving a margin of 45% to button inside .footer */
+.footer button {
+  margin-left: 45%;
+}
