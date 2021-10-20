@@ -184,10 +184,10 @@ WHEN : .Work1 img {} is given a  max-height: 500px & width: 80% in
 
 *GitHub url to the repository*
 ------
-https://github.com/Amit-Ranjan22/Portfolio_Amitabh-Ranjan.git
+https://github.com/Amit-Ranjan22/UpdatedPortfolio-Amitabh_Ranjan.git
 ------
 
 *url to the deployed application*
 ------
-https://amit-ranjan22.github.io/Portfolio_Amitabh-Ranjan/
+https://amit-ranjan22.github.io/UpdatedPortfolio-Amitabh_Ranjan/
 ------
