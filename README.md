@@ -178,9 +178,9 @@ It's considered done<br>
 WHEN : .Work1 img {} is given a  max-height: 500px & width: 80% in 
         style.css.
 
-*Deployed application should look like the below given image*
+*Deployed application screen-shot*
 
-<img src="./background-image/Portfolio-Application-Preview.png" alt="Portfolio-Application-Screenshot">
+<img src="image/updatedResume-App-Screenshot.png">
 
 *GitHub url to the repository*
 ------
